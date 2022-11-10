@@ -110,3 +110,31 @@ color: #fff;
     visibility: visible;
     background-color: rgba(255, 0, 34, 0.664);
 }
+
+/* password text */
+@media only screen and (max-width:620px) {
+    .box1{
+        float: left;
+        width: 30vw;
+        height: 3vh;
+        margin: 2px 2px 2px 2px;
+        padding: 2px 2px 2px 2px;
+        font-size: 4vw;
+    }
+    .button_ran {
+        width: 20vw;
+        height: 5vh;
+        margin-left: 10px;
+        font-size: 3vw;
+    }
+    .box_num {
+        width: 3vw;
+        height: 2vh;
+        margin-left: 10px;
+        padding: 2px 2px 2px 2px;
+        font-size: 3vw;
+    }
+    .box_a {
+        width: 45vw;
+    }
+}    
