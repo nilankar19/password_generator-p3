@@ -1,0 +1,112 @@
+.body1{
+    background-image: url("img/krishna.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
+}
+
+.box{
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+.first1{
+    display: flex;
+    flex-direction: row;
+
+}
+.container1{   
+    position: absolute;
+    width: 15vw;
+    height: 18vh;
+    text-align: center;
+    font-size:large;
+    border-radius: 15px;
+    border-width: 15px;
+    background-color: #fff;  
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.container2{
+    width: 13vw;
+    height: 16vh;
+    background-color:#fff;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-image: round;
+    /* backface-visibility: hidden; */
+    /* background-origin: content-box; */
+    background-image: url(img/aa.jpeg);
+    border-radius: 5px;
+    border-width: 15px;
+  
+}
+
+.container3{
+   
+    width: 50vw;
+    height: 18vh;
+   
+    padding: 2px 2px 2px 2px;
+    border-radius: 15px;
+    border-width: 15px;
+    background-color: #fff;  
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.con3_first{
+    display: flex;
+    justify-content: center;
+}
+/* box_a */
+.box_a{
+    width: 40vw;
+}
+.box1{
+    float: left;
+    width: 30vw;
+    height: 5vh;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 10px;
+    border: 2px solid rgb(241, 217, 0);
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.button_ran{
+width: 20vw;
+height: 8vh;
+margin-left: 10px;
+font-size: 2vw;
+border: 1px solid rgb(92, 47, 255);
+border-radius: 10px;
+background-color: rgba(7, 82, 85, 0.849);
+cursor:pointer;
+color: #fff;
+}
+
+/* small box number */
+.box_num{
+    width: 2vw;
+    height: 2vh;
+    margin-left: 10px;
+    padding: 2px 2px 2px 2px;
+    font-size: 1vw;
+    float: left;
+    border: 1px solid rgb(167, 102, 16);
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.849);
+    cursor:pointer;
+}
+#box_num2{
+    margin-left: 1px;
+}
+#box_num:focus{
+    visibility: visible;
+    background-color: rgba(255, 0, 34, 0.664);
+}
