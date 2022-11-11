@@ -60,6 +60,7 @@
     justify-content: center;
 }
 /* box_a */
+
 .box_a{
     width: 40vw;
 }
@@ -69,7 +70,7 @@
     height: 5vh;
     margin: 2px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: center;
     padding-top: 10px;
     border: 2px solid rgb(241, 217, 0);
@@ -102,6 +103,9 @@ color: #fff;
     text-align: center;
     background-color: rgba(250, 250, 250, 0.849);
     cursor:pointer;
+}
+#box_num11{
+    width: 7vw;
 }
 #box_num2{
     margin-left: 1px;
@@ -136,5 +140,10 @@ color: #fff;
     }
     .box_a {
         width: 45vw;
+    }
+    #box_num11 {
+        width: 16vw;
+        margin-left: 44px;
+        margin-top: 3px;
     }
 }    
