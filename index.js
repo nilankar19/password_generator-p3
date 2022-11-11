@@ -60,6 +60,7 @@ function pass_range(param) {
 user_input = param;
 ran_pass();
 if (param<=10){
+    input_length.style.border='rgba(250, 250, 250, 0.849)';
 switch (param) {
     case 2:   
         b2.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
