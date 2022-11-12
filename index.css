@@ -147,4 +147,14 @@ color: #fff;
         margin-left: 44px;
         margin-top: 3px;
     }
+    .body1 {
+        background-image: url(img/krishna.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 6.2in;
+        background-position: bottom;
+    }
+    .container3 {
+        height: 22vh;
+    }
 }    
