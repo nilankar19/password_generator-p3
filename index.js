@@ -16,6 +16,7 @@ let color_arr = [
     "2px solid rgb(0, 255, 64)"];
 
 function ran_pass(){
+    pass_box.value="hello";
     generate_butn.innerHTML="Generate";
     let arr = [
     'u','v','w','x','y','z',
@@ -39,7 +40,7 @@ let final = "";
 for (let i = 0; i < user_input; i++){int = +(Math.random() * (arr.length-1)).toFixed(0);final = final + arr[int]}
 
 console.log(typeof(final),arr.length,final);
-document.querySelector("textarea").innerText = final;
+pass_box.value = final;
 navigator.clipboard.writeText(final);
 generate_butn.setAttribute("title","copied");
 
