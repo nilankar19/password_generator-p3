@@ -1,8 +1,8 @@
 # password_generator_
 <a href="https://nilankar19.github.io/password_generator/" ><img
   src="img/passwall.png"
-  alt="Alt text"
-  title="Optional title"
+  alt="password generator"
+  title="click me"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   </a>
-  <button>s</button>
+
