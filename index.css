@@ -106,14 +106,14 @@ color: #fff;
 }
 #box_num11{
     width: 7vw;
-    border: rgba(250, 250, 250, 0.849);
+    border: 1px solid red;
 }
 #box_num2{
     margin-left: 1px;
 }
 #box_num:focus{
     visibility: visible;
-    background-color: rgba(255, 0, 34, 0.664);
+    /* background-color: rgba(255, 0, 34, 0.664); */
 }
 .container0{
      width:15vw;
