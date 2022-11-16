@@ -278,4 +278,8 @@ background-color: #fff;
         width: 14vw;
         float: left;
     }
+    .copied{
+    margin-top: 48px;
+    margin-left: 48px;
+    }
 }    

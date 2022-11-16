@@ -54,6 +54,10 @@ for (let i = 0; i < user_input; i++){
 console.log(arr.length,final);
 
 navigator.clipboard.writeText(final);
+document.getElementById("copieds").style.display="block";
+setTimeout(() => {
+    document.getElementById("copieds").style.display="none";
+}, 2000);
 generate_butn.setAttribute("title","copied");
 
 let color_ran = +(Math.random()*10).toFixed(0);
