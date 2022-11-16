@@ -137,6 +137,19 @@ color: #fff;
     background-size: contain;   
 }
 
+.copied{
+    display: none;
+float: left;
+margin-top: -16px;
+margin-left: 2px;
+border-radius: 15px;
+border-width: 15px;
+padding-left: 8px;
+padding-right: 11px;
+background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background:radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%) ;
+}
 .combination{
  
     margin-right: 2%;
