@@ -138,7 +138,7 @@ color: #fff;
 }
 
 .copied{
-    display: block;
+    display: none;
 float: left;
 margin-top: -16px;
 margin-left: 2px;
