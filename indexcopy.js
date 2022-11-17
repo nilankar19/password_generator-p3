@@ -44,7 +44,7 @@ function ran_pass(){
 let int; 
 final = "";           //password output 
 for (let i = 0; i < user_input; i++){
-    if(final=="undefined"){final="";arr = arr1}                              //fixed bugs
+    if(final=="undefined"||pass_box.value=="hello"){final="";arr = arr1}                              //fixed bugs
     int = +(Math.random() * (arr.length-1)).toFixed(0);
     final = final + arr[int];
     pass_box.value = final;
