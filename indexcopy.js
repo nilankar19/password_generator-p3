@@ -155,6 +155,7 @@ if (check && input_length.value == true && typeof(param) == "number"){
 
 function remove_box() {
     document.querySelector("textarea").innerText="password";
+    document.getElementById("setting_con").style.display="none";
     input_length.style.border='2px solid red';
     user_input = undefined;
     b2.style.background="rgba(250, 250, 250, 0.849)";
@@ -162,6 +163,7 @@ function remove_box() {
     b6.style.background="rgba(250, 250, 250, 0.849)";
     b8.style.background="rgba(250, 250, 250, 0.849)";
     b10.style.background="rgba(250, 250, 250, 0.849)";
+    
     
 }
 
