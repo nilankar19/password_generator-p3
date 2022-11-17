@@ -135,6 +135,7 @@ color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;   
+    cursor: pointer;
 }
 
 .copied{
