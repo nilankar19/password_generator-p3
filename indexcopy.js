@@ -36,13 +36,13 @@ let arr1 = [
 ];
 
 let arr = arr1;
-let final = "";  
+let final = "";
 function ran_pass(){
     pass_box.value="enter password length";
     generate_butn.innerHTML="Generate";
-    
-let int; 
-final = "";           //password output 
+
+let int;
+final = "";           //password output
 
 for (let i = 0; i < user_input; i++){
     console.log(final,"pass_box.value");
@@ -82,7 +82,7 @@ ran_pass();
 if (param<=10){
     input_length.style.border='rgba(250, 250, 250, 0.849)';
 switch (param) {
-    case 2:   
+    case 2:
         b2.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
         b4.style.background="rgba(250, 250, 250, 0.849)";
         b6.style.background="rgba(250, 250, 250, 0.849)";
@@ -91,7 +91,7 @@ switch (param) {
         input_length.value = undefined;
         input_length.setAttribute("placeholder","enter length");
         break;
-    case 4:    
+    case 4:
         b4.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
         b2.style.background="rgba(250, 250, 250, 0.849)";
         b6.style.background="rgba(250, 250, 250, 0.849)";
@@ -100,7 +100,7 @@ switch (param) {
         input_length.value = undefined;
         input_length.setAttribute("placeholder","enter length");
         break;
-    case 6:   
+    case 6:
         b6.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
         b2.style.background="rgba(250, 250, 250, 0.849)";
         b4.style.background="rgba(250, 250, 250, 0.849)";
@@ -109,7 +109,7 @@ switch (param) {
         input_length.value = undefined;
         input_length.setAttribute("placeholder","enter length");
         break;
-    case 8:      
+    case 8:
         b8.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
         b4.style.background="rgba(250, 250, 250, 0.849)";
         b6.style.background="rgba(250, 250, 250, 0.849)";
@@ -118,7 +118,7 @@ switch (param) {
         input_length.value = undefined;
         input_length.setAttribute("placeholder","enter length");
         break;
-    case 10:    
+    case 10:
         b10.style.background="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)";
         b4.style.background="rgba(250, 250, 250, 0.849)";
         b6.style.background="rgba(250, 250, 250, 0.849)";
@@ -147,7 +147,7 @@ function uinput(check){
 console.log(input_length.value,"hello");
  // user_input = user_length;
 pass_range(input_length.value);
-if (check && input_length.value == true && typeof(param) == "number"){ 
+if (check && input_length.value == true && typeof(param) == "number"){
     b2.style.background="rgba(250, 250, 250, 0.849)";
     b4.style.background="rgba(250, 250, 250, 0.849)";
     b6.style.background="rgba(250, 250, 250, 0.849)";
@@ -166,8 +166,8 @@ function remove_box() {
     b6.style.background="rgba(250, 250, 250, 0.849)";
     b8.style.background="rgba(250, 250, 250, 0.849)";
     b10.style.background="rgba(250, 250, 250, 0.849)";
-    
-    
+
+
 }
 
 
@@ -234,10 +234,10 @@ function checkeds(e) {
 
 
 for(let i in c_a){
-    
+
     if(c[i]==1){
         truer = 0;
-        final_a = final_a.concat(c_a[i]);   
+        final_a = final_a.concat(c_a[i]);
     }else{
         truer += 1;
         continue;
@@ -251,7 +251,5 @@ if(user_input==undefined){user_input=6;ran_pass()}
 console.log(arr,e);
 
 final_a = [];
-  
+
 }
-
-
