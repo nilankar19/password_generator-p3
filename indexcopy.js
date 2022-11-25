@@ -38,20 +38,23 @@ let arr1 = [
 let arr = arr1;
 let final = "";  
 function ran_pass(){
-    pass_box.value="hello";
+    pass_box.value="enter password length";
     generate_butn.innerHTML="Generate";
     
 let int; 
 final = "";           //password output 
+
 for (let i = 0; i < user_input; i++){
-    if(final=="undefined"||pass_box.value=="hello"){final="";arr = arr1}                              //fixed bugs
+    console.log(final,"pass_box.value");
+    if(final=="undefined"){final="";arr = arr1}                              //fixed bugs
     int = +(Math.random() * (arr.length-1)).toFixed(0);
+    // console.log(arr);
     final = final + arr[int];
     pass_box.value = final;
-    // console.log(final);
+    console.log(pass_box.value);
 }
 
-console.log(arr.length,final);
+// console.log(arr.length,final);
 
 navigator.clipboard.writeText(final);
 document.getElementById("copieds").style.display="block";
@@ -224,9 +227,9 @@ let truer = 0;
 // checkbox checked value
 function checkeds(e) {
   c[e] = (c[e]==0)?1:0;
-//   console.log(c);
+  console.log(c);
   checker(e);
-//   console.log(c_a);
+  console.log(c_a);
 
 
 
@@ -243,7 +246,9 @@ for(let i in c_a){
 }
 final="";
 arr=final_a;
-// console.log(arr,e);
+ran_pass()
+if(user_input==undefined){user_input=6;ran_pass()}
+console.log(arr,e);
 
 final_a = [];
   
