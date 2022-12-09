@@ -211,6 +211,9 @@ background-color: rgb(250, 242, 242);
 
 /* password text */
 @media only screen and (max-width:620px) {
+    #krishna{
+    display: none;
+    }
     .con3_first {
         margin-top: 2%;
     }
@@ -246,11 +249,12 @@ background-color: rgb(250, 242, 242);
         margin-top: 3px;
     }
     .body1 {
-        background-image: url(img/krishna.png);
+        background-image: url("img/hello.jpeg");
+        
         background-repeat: no-repeat;
-        background-size: contain;
-        height: 6.2in;
-        background-position: bottom;
+        background-size: cover;
+        height: 100%;
+/*         background-position: bottom; */
     }
     .container3 {
         height: 26vh;
