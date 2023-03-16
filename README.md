@@ -1,5 +1,5 @@
 # password_generator_
-<a href="https://nilankar19.github.io/password_generator/" ><img
+<a href="https://nilankar19.github.io/password_generator-p3/" ><img
   src="img/passwall.png"
   alt="password generator"
   title="click me"
